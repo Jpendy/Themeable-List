@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders List 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <img
+      src="image"
+    />
+    <p>
+      Rick
+    </p>
+    <p>
+      Species: 
+      human
+    </p>
+    <p>
+      Status: 
+      alive
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <img
+      src="image"
+    />
+    <p>
+      Morty
+    </p>
+    <p>
+      Species: 
+      human
+    </p>
+    <p>
+      Status: 
+      alive
+    </p>
+  </li>
+</ul>
+`;
