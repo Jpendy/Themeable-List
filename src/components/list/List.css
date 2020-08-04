@@ -1,0 +1,10 @@
+.light {
+    list-style: none;
+    background: lightskyblue;
+}
+
+.dark {
+    list-style: none;
+    background: darkblue;
+    color: white;
+}
