@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <Router>
-        <AppProvider>
+        <AppProvider> 
           <Switch>
             <Route exact path='/' component={MainContainer}/>
           </Switch>
