@@ -5,6 +5,7 @@ const Pagination = ({ page, previousPage, nextPage }) => {
   return (
     <div>
       <button disabled={page === 0} onClick={previousPage}>&lt;</button>
+      <span> {page} </span>
       <button onClick={nextPage}>&gt;</button>
     </div>
   );
