@@ -1,4 +1,4 @@
-import reducer from './listReducer';
+import reducer from './appReducer';
 
 describe('list reducer', () => {
   it('sets characters with the SET_CHARACTERS action type', () => {

@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './List.css';
 
-const List = ({ characters }) => {
+const List = ({ characters, theme }) => {
 
   const listElement = characters.map((item, i) => {
     return (
@@ -15,7 +16,7 @@ const List = ({ characters }) => {
   });
 
   return (
-    <ul>
+    <ul className={styles[theme]} >
       {listElement}
     </ul>
   );
