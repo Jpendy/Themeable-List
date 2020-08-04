@@ -4,6 +4,7 @@ import reducer, { initialState } from '../reducers/appReducer';
 import { fetchCharacters } from '../services/rickAndMortyAPI';
 import usePagination from '../hooks/usePagination';
 
+// eslint-disable-next-line 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
